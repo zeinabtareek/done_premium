@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f50a952-7dd6-4599-b6ba-9b267e5c4eea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_cart_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_home_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_menu_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/ic_more_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/no_connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/track.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Translations/translations.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/appbar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/cart_ingrendiant.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/custom_btn.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/custom_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/dialog.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/phone_number_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/componants/pin_code_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/api_endpoints.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/app_assets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/app_color.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/app_common_style.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants/app_labels.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/helper/dio_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/helper/responsive.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/helper/shared_prefrences.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/Items_screen/controller/new_sub_cat_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/Items_screen/new_sub_category_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/auth_screen/auth_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/auth_screen/controller/signup_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/auth_screen/model/user_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/auth_screen/verification_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/branches_screen/branches_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/branches_screen/controller/branch_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen/cart_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen/controller/cart_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen/model/cart_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen/model/copoun_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/cart_screen/model/resteurant_fees_response_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/home/controller/home_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/home/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/home/model/BottomNavModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/home_screen/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/loading_screen/controller/load_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/loading_screen/loading_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/more_info/more_info.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/order_history/controllers/order_history_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/order_history/model/order_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/order_history/screens/order_details_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/order_history/screens/order_history_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/product_details/model/ProductDetailsModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/product_details/model/drinks_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/products_screen/controller/product_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/products_screen/products_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/reciept/screens/reciept_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/search_screen/controller/search_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/search_screen/model/SearchModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/search_screen/search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/search_screen/services/search_services.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/sun_categories_screen/model/SubCategories.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/controllers/Where_to_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/controllers/map_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/models/branches_addresses_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/models/delivery_area_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/models/firebase_address_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/screens/add_new_address.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/screens/invoice_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/screens/new_where_to_delivery.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/screens/where_to_deliver_screem.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/services/branches_addresses_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/where_to_deliver/services/services.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7atyAlAmana/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../7atyAlAmana/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7atyElSahaba/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../7atyElSahaba/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aql_app" beforeDir="false" afterPath="$PROJECT_DIR$/../aql_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../donation" beforeDir="false" afterPath="$PROJECT_DIR$/../donation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kazaderni" beforeDir="false" afterPath="$PROJECT_DIR$/../kazaderni" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lamis" beforeDir="false" afterPath="$PROJECT_DIR$/../lamis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testapp" beforeDir="false" afterPath="$PROJECT_DIR$/../testapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Al Mostafa/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Al Mostafa/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aleppo/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aleppo/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrow Cloth Demo/arrows_clothes" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrow Cloth Demo/arrows_clothes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arzak/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arzak/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bouquet/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bouquet/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cars DEmo/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cars DEmo/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Container-Modified" beforeDir="false" afterPath="$PROJECT_DIR$/../../Container-Modified" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dahab/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dahab/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DashBurger/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../DashBurger/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../El Sharkawy/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../El Sharkawy/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../El-AlamySM/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../El-AlamySM/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ElSardy/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../ElSardy/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ElZa3eem/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../ElZa3eem/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Elmansy/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Elmansy/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fegato/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fegato/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-Onboarding-Animation" beforeDir="false" afterPath="$PROJECT_DIR$/../../Flutter-Onboarding-Animation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-email-ui---Mobile-Tablet-and-Web" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/.com.google.Chrome.UpbY6X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/.com.google.Chrome.dwC3JS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/.com.google.Chrome.iwz0Ih" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/.com.google.Chrome.mzFMn6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Affiliation Database" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Affiliation Database-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/BudgetDatabase/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/BudgetDatabase/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/BudgetDatabase/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Cookies-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/DIPS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/DIPS-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Download Service/EntryDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Rules/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Rules/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Rules/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Rules/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Rules/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Scripts/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Scripts/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Scripts/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Scripts/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension Scripts/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Extension State/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Favicons" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Favicons-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/GCM Store/Encryption/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/History" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/History-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/000007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/000008.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_49939.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/000009.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/000011.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/000012.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_50494.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/000016.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/000018.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/000020.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51194.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/000056.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/000058.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/000060.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_51849.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53141.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53335.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53837.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/000064.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/000079.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/000081.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/000083.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_53990.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_54579.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55060.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/000009.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/000011.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/000012.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55876.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/000008.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/000010.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/000012.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_55889.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/000019.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/000021.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_57987.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/000012.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/000019.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/000021.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/000023.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_58512.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/000020.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/000022.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/000024.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59512.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/000004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_59710.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/000005.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/000012.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/000014.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/000016.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60004.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/000020.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/000023.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/000025.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/000027.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_60203.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/000008.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/000027.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/000029.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/000031.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_61958.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Login Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Login Data For Account" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Login Data For Account-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Login Data-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Network Action Predictor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Network Action Predictor-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Network Persistent State" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/PreferredApps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Reporting and NEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Reporting and NEL-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Secure Preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/Database/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/013888a1cda32b90_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/08b99d499107ba17_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/0ae129c33e7a30bd_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/297ecea5cebb5dfe_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/2a0afd649b00527b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/4cb013792b196a35_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/653e56b4b6556a9e_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/67a473248953641b_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/6c038e3570d6abf1_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/6f8ac775dbbd7415_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/7b4fd8111178d5b1_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/b6c28cea6ed9dfc1_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/d0757ff92c7cde0a_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/f1cdccba37924bda_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/f3ab1e1292e135fa_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/fa813c9ad67834ac_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/fb1f328d70d91607_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330535147224865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330535502923059" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330541929397079" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330542167213165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330542376303637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330544785698808" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330546124800037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330546837139848" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330550166436912" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330550261774609" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330550547830032" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330550951532251" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330552503026881" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330554968862522" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330555671312827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330555809407897" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330556184806375" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330557692947096" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330557789801684" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330558398707870" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330558524704404" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330558748736325" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330559355959979" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330629283046788" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330645258810349" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Session_13330648117865190" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330542268989927" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330542377195146" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330542817384297" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330546838194090" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330546944444049" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330550548700708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330550952323429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330554969820706" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330555672373868" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330555810285115" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330556185644647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330557693785297" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330557790647752" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330558399697909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330558525735702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330558749525741" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330629284025836" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sessions/Tabs_13330645259864441" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Shortcuts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Shortcuts-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Site Characteristics Database/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Sync Data/LevelDB/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Top Sites" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Top Sites-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/TransportSecurity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Visited Links" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Web Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/Web Data-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/WebStorage/QuotaManager" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/commerce_subscription_db/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/commerce_subscription_db/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/commerce_subscription_db/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/coupon_db/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/coupon_db/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/coupon_db/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/databases/Databases.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/databases/Databases.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/015f7747-e77b-44a4-8d6f-5ae9e43ca53d/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/015f7747-e77b-44a4-8d6f-5ae9e43ca53d/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/049f21e8-acb7-46c6-b4cd-4a5a2bd459b5/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/049f21e8-acb7-46c6-b4cd-4a5a2bd459b5/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/0b917e65-cbb2-4b22-bd7b-4b7e027353bf/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/0b917e65-cbb2-4b22-bd7b-4b7e027353bf/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/10976ddc-3a6c-4d24-9a2e-65997248d4da/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/10976ddc-3a6c-4d24-9a2e-65997248d4da/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/10ac4737-b24c-4aaf-be32-2b2a835801f3/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/10ac4737-b24c-4aaf-be32-2b2a835801f3/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/161f258b-9c95-4b5c-ba80-c78917dc0773/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/161f258b-9c95-4b5c-ba80-c78917dc0773/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/19ed3b06-72c4-4eea-b73f-1fb4ed10c3d5/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/19ed3b06-72c4-4eea-b73f-1fb4ed10c3d5/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/1da6a952-ab52-418c-adf5-f0253f50ebf3/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/1da6a952-ab52-418c-adf5-f0253f50ebf3/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/23831128-5e95-4aa7-a16c-8301fd0e6d20/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/23831128-5e95-4aa7-a16c-8301fd0e6d20/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2668c826-4ee3-4aef-b2a5-b15bb7b042b4/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2668c826-4ee3-4aef-b2a5-b15bb7b042b4/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/global-entities_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/global-entities_names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/global-entities_names_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/global-entities_prefixes_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/model_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/29efc085-5c13-456d-b950-ac8b665010c9/word_embeddings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/global-entities_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/global-entities_names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/global-entities_names_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/global-entities_prefixes_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/model_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2caa255e-e2cf-4a65-beea-8b04889c8e36/word_embeddings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2ffaf568-30b2-410a-a596-b59d64eb46fd/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/2ffaf568-30b2-410a-a596-b59d64eb46fd/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/451a9f68-710f-4011-b6cc-c20d659ebcbb/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/451a9f68-710f-4011-b6cc-c20d659ebcbb/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/5624b004-702f-468e-8472-df5da3cebf22/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/5624b004-702f-468e-8472-df5da3cebf22/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/604761eb-54be-4ed4-9c2c-1a18aa390e52/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/604761eb-54be-4ed4-9c2c-1a18aa390e52/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/global-entities_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/global-entities_names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/global-entities_names_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/global-entities_prefixes_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/model_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/70f1ccc3-51e7-45ea-b7c8-d2742cbd329b/word_embeddings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/global-entities_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/global-entities_names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/global-entities_names_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/global-entities_prefixes_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/model_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/72218a60-3e57-4bcc-a143-1c2c5891c2c3/word_embeddings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/7719c012-da96-4b79-85ae-eb3943479548/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/7719c012-da96-4b79-85ae-eb3943479548/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/7f69b5c3-d89c-442c-a1b4-fc850e169ff9/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/7f69b5c3-d89c-442c-a1b4-fc850e169ff9/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/83fae9ea-1d24-4851-bd80-b12e1090a3df/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/83fae9ea-1d24-4851-bd80-b12e1090a3df/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/87c468fd-1db6-42f7-88b0-7290d50a2992/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/87c468fd-1db6-42f7-88b0-7290d50a2992/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/9351abe2-8a2f-43ea-b1e7-73f9c80d441d/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/9351abe2-8a2f-43ea-b1e7-73f9c80d441d/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/b58b812c-c596-4a6f-9e5a-90b9d600fac2/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/b58b812c-c596-4a6f-9e5a-90b9d600fac2/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/bc58a849-dcdc-4175-b742-285514645351/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/bc58a849-dcdc-4175-b742-285514645351/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/bdf324a9-00f7-4140-b305-c884494d61e6/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/bdf324a9-00f7-4140-b305-c884494d61e6/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/cb8fc01d-90ac-4a6a-915e-781029933d73/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/cb8fc01d-90ac-4a6a-915e-781029933d73/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/d90b7095-af87-4ec7-a70c-5064bdf57b39/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/d90b7095-af87-4ec7-a70c-5064bdf57b39/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/df7f2250-3914-46b2-b6ae-b73047a6ca1e/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/df7f2250-3914-46b2-b6ae-b73047a6ca1e/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e31ea996-2deb-499d-848e-4b15df96e782/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e31ea996-2deb-499d-848e-4b15df96e782/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e41aa2e5-6dc2-4fcf-adb3-0ca4477b64c1/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e41aa2e5-6dc2-4fcf-adb3-0ca4477b64c1/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e817b0b4-8719-4417-9c98-46104ad848bd/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/e817b0b4-8719-4417-9c98-46104ad848bd/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/global-entities_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/global-entities_names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/global-entities_names_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/global-entities_prefixes_filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/model_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/ea373c46-35dd-4f26-904b-f633aa1133c4/word_embeddings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/effca6c4-ef7f-4992-8fc9-5dadc7595d35/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/effca6c4-ef7f-4992-8fc9-5dadc7595d35/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/f5d76b86-43a2-4d0a-9843-7b90224ee584/model-info.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/f5d76b86-43a2-4d0a-9843-7b90224ee584/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/CURRENT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/shared_proto_db/metadata/MANIFEST-000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/chrome-device/Default/trusted_vault.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/dartpad/web_plugin_registrant.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/app.dill.deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/dart2js.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/dart2js.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/main.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/main.dart.js.deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/service_worker.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_entrypoint.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_plugin_registrant.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_release_bundle.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_resources.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_service_worker.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/flutter_build/f9a50ab9648a2e3141af173e70676c40/web_static_assets.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.flutter-plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/Flutter-responsive-email-ui---Mobile-Tablet-and-Web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/kotlin/com/example/outlook/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Angle down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Angle right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/File.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Inbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Markup filled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Markup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/More vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Paperclip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Printer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Reply all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Reply.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Sort.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Transfer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/Icons/Trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/Img_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/Img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/Img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/Logo Outlook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/add_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/ads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/user_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/user_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/user_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/user_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/images/user_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/ellipse1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/ellipse20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/error_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/info_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/profile_placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/sucess.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/assets/vectors/warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/2a122fd635ebb15f8b5069f1664d6d41.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/65902b92a703b2ae606a6c130b5235d4/_composite.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/65902b92a703b2ae606a6c130b5235d4/gen_dart_plugin_registrant.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/65902b92a703b2ae606a6c130b5235d4/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/AssetManifest.smcbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/NOTICES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Angle%20down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Angle%20right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/File.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Inbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Markup%20filled.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Markup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/More%20vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Paperclip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Printer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Reply%20all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Reply.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Sort.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Transfer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/Icons/Trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/Img_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/Img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/Img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/Logo%20Outlook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/add_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/ads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/user_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/user_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/user_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/user_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/assets/images/user_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/build/last_build_run.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/integration_test/app_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/integration_test/driver.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/common/app_assets.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/common/constants.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/common/extensions.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/common/ui/overlay_helper.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/common/ui/snack_bar_helper.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/counter_badge.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/customCard.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/custom_btn.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/custom_text_field.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/header_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/side_menu.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/components/side_menu_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/helper/shared_prefrences.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/models/Email.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/models/user_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/responsive.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/email/components/header.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/email/email_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/loading_screen/controller/load_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/loading_screen/load_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/login/componant/login_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/login/controller/controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/login/login_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/main/components/email_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/main/components/list_of_emails.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/main/controller/home_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/screens/main/main_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/lib/services/auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Flutter-responsive-ui/web/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FomoSmile/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../FomoSmile/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hadarmot-Bokhari/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hadarmot-Bokhari/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../I Grill/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../I Grill/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Konafa/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Konafa/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Morsi/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Morsi/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NoFat/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../NoFat/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Odheya/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Odheya/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pizza Cook/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pizza Cook/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pizza Di Napoli/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pizza Di Napoli/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pizza Napoli/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pizza Napoli/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pizza Safeer/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pizza Safeer/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sabha/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sabha/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Saderaty/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Saderaty/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Shay5on/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Shay5on/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Yummy/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../Yummy/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aboElezz/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../aboElezz/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../amman-corner" beforeDir="false" afterPath="$PROJECT_DIR$/../../amman-corner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../amman_corner" beforeDir="false" afterPath="$PROJECT_DIR$/../../amman_corner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bab_aman" beforeDir="false" afterPath="$PROJECT_DIR$/../../bab_aman" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ballon" beforeDir="false" afterPath="$PROJECT_DIR$/../../ballon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ballon2" beforeDir="false" afterPath="$PROJECT_DIR$/../../ballon2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bedo/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../bedo/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../brost El Deek/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../brost El Deek/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clothes_user" beforeDir="false" afterPath="$PROJECT_DIR$/../../clothes_user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../container" beforeDir="false" afterPath="$PROJECT_DIR$/../../container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deadline-rest/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../deadline-rest/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../donation_app_first_assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../../donation_app_first_assignment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../donation_dashboard2" beforeDir="false" afterPath="$PROJECT_DIR$/../../donation_dashboard2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../essnad" beforeDir="false" afterPath="$PROJECT_DIR$/../../essnad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_clothes" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_clothes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_task_api" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_task_api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../harir/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../harir/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instagramclone" beforeDir="false" afterPath="$PROJECT_DIR$/../../instagramclone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kazaderni" beforeDir="false" afterPath="$PROJECT_DIR$/../../kazaderni" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kazaderni-heshaaam" beforeDir="false" afterPath="$PROJECT_DIR$/../../kazaderni-heshaaam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kwarshy/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../kwarshy/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lam3ty" beforeDir="false" afterPath="$PROJECT_DIR$/../../lam3ty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logo_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../logo_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mamatender" beforeDir="false" afterPath="$PROJECT_DIR$/../../mamatender" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mamatender2" beforeDir="false" afterPath="$PROJECT_DIR$/../../mamatender2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mawlana/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../mawlana/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mazadi" beforeDir="false" afterPath="$PROJECT_DIR$/../../mazadi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mdrb el rozz/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../mdrb el rozz/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moky_mah_user_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../moky_mah_user_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mwardi-frontend0" beforeDir="false" afterPath="$PROJECT_DIR$/../../mwardi-frontend0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mwardi-frontend0 copy" beforeDir="false" afterPath="$PROJECT_DIR$/../../mwardi-frontend0 copy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../paradise/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../paradise/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prost El Sory/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../prost El Sory/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rayhan/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../rayhan/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reem/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../reem/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reemElKhalij/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../reemElKhalij/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sabeh/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../sabeh/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sanad" beforeDir="false" afterPath="$PROJECT_DIR$/../../sanad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sharkawy-Elnozha/arrows" beforeDir="false" afterPath="$PROJECT_DIR$/../../sharkawy-Elnozha/arrows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sports_venue_booking_app-master" beforeDir="false" afterPath="$PROJECT_DIR$/../../sports_venue_booking_app-master" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swiftCourse" beforeDir="false" afterPath="$PROJECT_DIR$/../../swiftCourse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_web" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_web" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../weather_app" beforeDir="false" afterPath="$PROJECT_DIR$/../../weather_app" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2R8862bywwGUNDHfsI7TBOmm1qw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/lib/screens/cart_screen/model" />
+      <recent name="$PROJECT_DIR$/lib/screens/sun_categories_screen/model" />
+      <recent name="$PROJECT_DIR$/lib/screens" />
+      <recent name="$PROJECT_DIR$/lib/screens/auth_screen/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/lib/screens/search_screen/services" />
+      <recent name="$PROJECT_DIR$/lib/screens/search_screen/model" />
+      <recent name="$PROJECT_DIR$/lib/screens/search_screen/controller" />
+      <recent name="$PROJECT_DIR$/assets/icons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f50a952-7dd6-4599-b6ba-9b267e5c4eea" name="Default Changelist" comment="" />
+      <created>1686620175838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686620175838</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+</project>
